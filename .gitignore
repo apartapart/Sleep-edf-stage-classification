@@ -1,0 +1,21 @@
+# data / artifacts
+data/
+artifacts/*
+!artifacts/README.md
+!artifacts/model_4.keras
+!artifacts/mean.npy
+!artifacts/std.npy
+*.edf
+*.fif
+*.npy
+*.keras
+*.h5
+
+!results/figures/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env

@@ -1,0 +1,10 @@
+numpy<2.1
+pandas
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+mne>=1.6
+pyedflib
+tensorflow[and-cuda]==2.18.*
+keras>=3.10
