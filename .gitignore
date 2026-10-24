@@ -19,3 +19,7 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 .env
+
+# muse2
+muse2/data/*.csv
+muse2/results/*.npy

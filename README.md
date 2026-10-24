@@ -167,6 +167,13 @@ cassette 는 ~20h 녹화라 취침 전후 W 가 과반 → 첫/마지막 수면 
    macro avg       0.70      0.68      0.67       939
 ```
 
+## 기기 적용 실험 (Muse 2) — [muse2/](muse2/README.md)
+
+Sleep-EDF 로 학습한 Wake/Sleep 이진 모델을 Muse 2 헤드밴드 녹화에 적용하고 activity 기반 pseudo-label 로 fine-tuning 한 기록.
+결과: 기초 모델은 미학습 PSG(cassette 28밤)에서 κ 0.85 로 작동하지만, Muse 데이터에서는 κ ≈ 0. **캡스톤 기간 내 미해결, 원인 진단과 향후 계획은 [muse2/README.md](muse2/README.md).**
+
+![muse cassette](muse2/results/figures/cassette_binary_eval.png)
+
 ## 알려진 이슈 / TODO
 
 노트북 로직을 그대로 옮겼으므로 아래 사항은 **코드에 그대로 남아 있음**. 재현성 확보 후 수정 권장.
