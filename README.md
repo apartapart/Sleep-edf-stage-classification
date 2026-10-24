@@ -4,6 +4,7 @@ Sleep-EDF Database Expanded (telemetry, ST7*) 의 EEG 2채널(`Fpz-Cz`, `Pz-Oz`)
 Colab 노트북 2개로 진행한 실험을 **전처리 → 정규화 → 불균형 처리 → 모델 → 학습 → 추론 → 시각화** 로 모듈 분리한 레포.
 
 > 배경 논문/수면 점수 설계: [docs/research.md](docs/research.md) · 개념 정리: [docs/notes.md](docs/notes.md) · 보고서(PDF) 요약 및 노트북과의 차이: [docs/report_pdf_summary.md](docs/report_pdf_summary.md)
+> 데이터셋: https://physionet.org/content/sleep-edfx/1.0.0/
 
 ---
 
